@@ -1,8 +1,12 @@
 Um projeto que analisa dois arquivos com uma base de dados e faz uma comparação entre eles, e após a analise retorna todos os dados que diferiram entre os arquivos
 
+Requisitos necessarios
+()Pandas
+()Tabula-py
+
 Funcionalidades
 
-()importar um arquivo em vsc
+()transformar um arquivo de excel para vsc e importar um arquivo em vsc
 ()transformar um arquivo de pdf para vsc e importar
 ()fazer a comparação entre os arquivos
 ()retornar com um novo arquivo apenas com os dados divergentes
