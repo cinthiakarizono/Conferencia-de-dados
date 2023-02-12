@@ -3,6 +3,9 @@ Um projeto que analisa dois arquivos com uma base de dados e faz uma comparaçã
 Requisitos necessarios
 ()Pandas
 ()Tabula-py
+()Openpyxl
+()Numpy
+()Java
 
 Funcionalidades
 
