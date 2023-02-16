@@ -6,7 +6,7 @@ from tabula import read_pdf
 #convertendo pdf em csv
 tabula.convert_into("arquivos\sistema.pdf", "arquivos\sistema.csv", output_format = "csv", pages = "all")
 sistema = tabula.read_pdf("arquivos\sistema.pdf", pages = "all")
-print(type(sistema))
+
 #convertendo arquivo excel em csv
 drive = pd.read_excel("arquivos/drive.xlsx")
 print(type(drive))
