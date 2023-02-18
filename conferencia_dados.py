@@ -12,6 +12,5 @@ drive = pd.read_excel("arquivos/drive.xlsx")
 print(type(drive))
 #tabela com as diferenças entre as bases de dados
 diff = pd.merge("arquivos\sistema.csv",drive, on = "RG, NOME, CONVENIO, VALOR", how = "outer")
-conferencia = diff.loc[lambda x: x["meege"] != "both"]
+conferencia = diff.loc[lambda x: x["merge"] != "both"]
 print(conferencia)
-
